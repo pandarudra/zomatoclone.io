@@ -25,12 +25,51 @@ body {
   font-family: Okra, Helvetica, sans-serif;
 }
 .c1 {
-  height: 36px;
+  height: 40px;
   width: 100%;
-  font-size: 36px;
-
+  font-size: 30px;
+  margin: 10px;
   display: flex;
   justify-content: space-evenly;
 
   color: #4f4f4f;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px 10px 0px;
+}
+.x {
+  width: 80%;
+  margin: 5px;
+  height: 40px;
+  font-size: 20px;
+}
+.c3 {
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 20px;
+  color: #4f4f4f;
+}
+.btn1 {
+  margin: 20px 45px 10px 45px;
+  width: 80%;
+  height: 45px;
+  border-color: transparent;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.btn2 {
+  margin: 20px 45px 10px 45px;
+  width: 80%;
+  height: 45px;
+  border-color: transparent;
+  background-color: white;
+  color: grey;
+  border-radius: 10px;
+  font-size: medium;
 }
