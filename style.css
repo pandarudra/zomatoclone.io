@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-between;;
   align-items: center;
+  background-size: cover;
   
 }
 .nav-top{
@@ -164,8 +165,7 @@ line-height: 1.2;
   justify-content: space-around;
   height: 200px;
   width: 100%
-  margin:30px 0px 30px 0px;
-}
+  margin:30px 0px 30px 0px;}
 .bot{
   
   height: 200px;
