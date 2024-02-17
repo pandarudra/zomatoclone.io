@@ -12,18 +12,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link href="lstyle.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="box">
       <div class="c1">
         <div style="height: 40px; margin: 0px 20px 0px 0px">Sign up</div>
-        <i
-          class="fa-solid fa-xmark"
-          align="right"
-          style="width: 30%; padding-left: 150px"
-        >
-        </i>
+        <a href="index.html">
+          <i
+            class="fa-solid fa-xmark"
+            align="right"
+            id="back"
+            style="width: 30%; padding-left: 150px"
+          >
+          </i>
+        </a>
       </div>
       <div class="c2">
         <form id="form">
@@ -51,6 +55,10 @@
           >Sign in with Google</font
         >
       </button>
+      <div class="last">
+        Already have an account?
+        <a href="#" style="text-decoration: none; color: red">Log in</a>
+      </div>
     </div>
   </body>
 </html>

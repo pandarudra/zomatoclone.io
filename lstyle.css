@@ -60,6 +60,7 @@ body {
   height: 45px;
   border-color: transparent;
   background-color: red;
+  opacity: 0.5;
   color: white;
   border-radius: 10px;
 }
@@ -72,4 +73,13 @@ body {
   color: grey;
   border-radius: 10px;
   font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+.last {
+  margin: auto;
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: large;
+  opacity: 0.8;
+  margin-left: 55px;
 }
